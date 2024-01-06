@@ -1,14 +1,21 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 *{
+    margin:0;
+    padding:0;
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
+.section-title{
+
+}
 .nav-title{
     color:#181818;
-    font-family: open sans;
     font-size: 45px;
-    text-transform: capitalize;
     font-weight: 800;
 }
 .nav-title span{
@@ -16,15 +23,20 @@
 }
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
 }
 .header>nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 nav>ul{
     display:flex;
     align-items: center; 
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -33,15 +45,54 @@ nav li{
 nav li a{
     text-decoration: none;
     color:#474747;
-    font-size: 20px;
-    font-weight: 400;
+   
 }
 
 .primary-btn{
     color:#FFF;
     padding:15px 35px;
     border:0;
+    font-size: 20px;
+    font-weight: 700px;
     border-radius: 5px;
     background:#FD6E0A;
-    font-size: 20px;  
+  
+}
+
+.banner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+
+.banner .banner-content{
+    max-width: 500px;
+}
+.banner .banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner .banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 5px;
+}
+.banner .banner-content p{
+    color: #757575;;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner .profile-pic{
+width: 500px;
+}
+
+/*...... about */
+.about{
+    padding:130px;
+    background: #FFF8F3;
 }
