@@ -5,9 +5,9 @@
     padding:0;
     font-family: 'Open Sans', sans-serif;
 }
+main section{
 
-img{
-    max-width: 100%;
+padding:20px 9%;
 }
 
 .section-title{
@@ -22,6 +22,7 @@ img{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding:30px;
      
 }
 
@@ -103,6 +104,11 @@ nav li a{
 .banner .profile-pic{
 width: 500px;
 }
+.banner .profile-pic img{
+   width: 100%;
+   object-fit: cover;
+    }
+    
 
 /*...... main.... */
 main{
@@ -112,7 +118,7 @@ main{
 
 /*...... about */
 .about{
-    padding:130px;
+    
     background: #FFF8F3;
     margin:130px;
 }
@@ -120,20 +126,57 @@ main{
 .about-info-container{
     display:flex;
     justify-content: space-around;
-    align-items: center;
+
     
 }
 .about-info{
-    text-align: center;
+
+    padding:5px;
 }
 .info-title{
     color: #757575;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    line-height: 30px; 
 }
 .info-description{
     color:#474747;
     font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
+    
+}
+
+
+
+#what-p{
+    padding:30px 130px;
+}
+.skil-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:24px;
+    
+}
+
+.skil{
+    padding:10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skil-title{
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+}
+
+.skil-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;  
 }
